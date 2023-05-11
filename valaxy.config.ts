@@ -1,10 +1,8 @@
-import { defineValaxyConfig } from 'valaxy'
-import type { UserThemeConfig } from 'valaxy-theme-yun'
+import { defineValaxyConfig } from "valaxy";
+import type { UserThemeConfig } from "valaxy-theme-yun";
 
 // add icons what you will need
-const safelist = [
-  'i-ri-home-line',
-]
+const safelist = ["i-ri-home-line"];
 
 /**
  * User Config
@@ -12,29 +10,37 @@ const safelist = [
 export default defineValaxyConfig<UserThemeConfig>({
   // site config see site.config.ts
 
-  theme: 'yun',
+  theme: "yun",
 
   themeConfig: {
     banner: {
       enable: true,
-      title: '翎钰的小窝',
+      title: "翎钰的小窝",
       cloud: {
         enable: true,
       },
     },
 
+    bg_image: {
+      enable: true,
+      url: "https://pic.imgdb.cn/item/5fd234093ffa7d37b3b4e5e1.jpg",
+      /*dark:
+        blur: 30px # 设置背景模糊程度 */
+      opacity: 0.8,
+    },
+
     pages: [
       {
-        name: '我的小伙伴们',
-        url: '/links/',
-        icon: 'i-ri-genderless-line',
-        color: 'dodgerblue',
+        name: "我的小伙伴们",
+        url: "/links/",
+        icon: "i-ri-genderless-line",
+        color: "dodgerblue",
       },
       {
-        name: '喜欢的女孩子',
-        url: '/girls/',
-        icon: 'i-ri-women-line',
-        color: 'hotpink',
+        name: "我的纸片人老婆们",
+        url: "/girls/",
+        icon: "i-ri-women-line",
+        color: "hotpink",
       },
     ],
 
@@ -42,10 +48,10 @@ export default defineValaxyConfig<UserThemeConfig>({
       since: 2020,
       beian: {
         enable: false,
-        icp: '',
+        icp: "",
       },
     },
   },
 
   unocss: { safelist },
-})
+});
