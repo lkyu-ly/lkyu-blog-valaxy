@@ -1,7 +1,7 @@
 ---
 title: freenom申请免费域名
 author: lkyu
-hide: true
+hide: false
 readmore: true
 tags:
   - 教程

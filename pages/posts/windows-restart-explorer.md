@@ -2,7 +2,7 @@
 title: windows系统自动重启explorer.exe脚本
 author: lkyu
 readmore: true
-hide: true
+hide: false
 tags:
   - 教程
 categories:
