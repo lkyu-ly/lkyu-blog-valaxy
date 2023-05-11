@@ -2,10 +2,9 @@
 title: 老杨的图~
 author: lkyu
 tags:
-  - 笔记
-  - C语言
+  - 崩坏·星穹铁道
 categories:
-  - 笔记
+  - 图册
 date: 2023-05-12
 updated: 2023-05-12
 description: 老杨的图
