@@ -4,13 +4,17 @@ export default defineSiteConfig({
   url: "https://blog.lkyu.cf/",
   lang: "zh-CN",
   title: "翎钰的小窝",
+  subtitle: "",
+  description: "",
   author: {
     name: "lkyu",
     avatar: "/favicon.ico",
+    status: {
+      emoji: "🤗",
+    },
   },
-
   favicon: "/favicon.ico",
-  description: "",
+  mediumZoom: { enable: true },
   social: [
     {
       name: "RSS",
