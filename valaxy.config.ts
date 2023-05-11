@@ -31,7 +31,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
 
     pages: [
-      {
+      /*{
         name: "我的小伙伴们",
         url: "/links/",
         icon: "i-ri-genderless-line",
@@ -42,7 +42,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         url: "/girls/",
         icon: "i-ri-women-line",
         color: "hotpink",
-      },
+      },*/
     ],
 
     footer: {

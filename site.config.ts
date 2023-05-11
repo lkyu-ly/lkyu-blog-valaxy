@@ -106,7 +106,6 @@ export default defineSiteConfig({
 
   comment: {
     enable: true,
-  
   },
 
   sponsor: {
@@ -135,6 +134,7 @@ export default defineSiteConfig({
     */
     ],
   },
+
   statistics: {
     enable: true,
     readTime: {
