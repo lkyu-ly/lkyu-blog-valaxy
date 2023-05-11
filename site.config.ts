@@ -91,7 +91,7 @@ export default defineSiteConfig({
     },*/
     {
       name: "E-Mail",
-      link: "1423782024@qq.com",
+      link: "mailto:1423782024@qq.com",
       icon: "i-ri-mail-line",
       color: "#8E71C1",
     },
