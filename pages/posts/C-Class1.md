@@ -1,13 +1,11 @@
 ---
 title: 猴博士C语言第一课笔记
 author: lkyu
-readmore: true
 tags:
   - 笔记
   - C语言
 categories:
   - 笔记
-abbrlink: 1440249830
 date: 2022-08-30 00:00:00
 updated: 2022-09-11 00:00:00
 description:
