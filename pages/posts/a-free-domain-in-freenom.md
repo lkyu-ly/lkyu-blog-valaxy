@@ -1,6 +1,6 @@
 ---
 title: freenom申请免费域名
-author: Misaka-h
+author: lkyu
 hide: true
 readmore: true
 tags:
@@ -8,7 +8,7 @@ tags:
   - 域名
   - freenom
 categories:
-  - Misaka 的小教程
+  - lkyu 的小教程
 description: 记录了我在freenom成功申请免费域名的过程
 abbrlink: 61639
 date: 2021-07-01 00:00:00

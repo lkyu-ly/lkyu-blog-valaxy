@@ -1,12 +1,12 @@
 ---
 title: windows系统自动重启explorer.exe脚本
-author: Misaka-h
+author: lkyu
 readmore: true
 hide: true
 tags:
   - 教程
 categories:
-  - Misaka 的小教程
+  - lkyu 的小教程
 description: 开机重启桌面的批处理
 abbrlink: 1618
 date: 2021-07-18 00:00:00

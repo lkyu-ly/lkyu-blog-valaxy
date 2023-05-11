@@ -13,6 +13,10 @@ updated: 2022-09-11 00:00:00
 description:
 ---
 
+C 语言基本语句 2
+
+<!-- more -->
+
 ## 课时 2 C 语言基本语句 2
 
 ### 用 scanf 语输入 int、float、double、char 型数据
