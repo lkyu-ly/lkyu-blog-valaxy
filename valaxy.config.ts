@@ -1,4 +1,5 @@
 import { defineValaxyConfig } from "valaxy";
+import { addonWaline } from "valaxy-addon-waline";
 import type { UserThemeConfig } from "valaxy-theme-yun";
 
 // add icons what you will need
@@ -25,8 +26,8 @@ export default defineValaxyConfig<UserThemeConfig>({
       enable: true,
       url: "https://pic.imgdb.cn/item/5fd234093ffa7d37b3b4e5e1.jpg",
       /*dark:
-        blur: 30px # 设置背景模糊程度 */
-      opacity: 0.8,
+      blur: 30px , 设置背景模糊程度 */
+      opacity: 0.6,
     },
 
     pages: [
@@ -54,4 +55,11 @@ export default defineValaxyConfig<UserThemeConfig>({
   },
 
   unocss: { safelist },
+
+  addons: [
+    addonWaline({
+      serverURL: "https://waline.yunyoujun.cn",
+      comment: true,
+    }),
+  ],
 });

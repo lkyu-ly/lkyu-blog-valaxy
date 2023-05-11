@@ -6,7 +6,9 @@ export default defineSiteConfig({
   title: "翎钰的小窝",
   author: {
     name: "lkyu",
+    avatar: "/favicon.ico",
   },
+
   favicon: "/favicon.ico",
   description: "",
   social: [
@@ -100,6 +102,11 @@ export default defineSiteConfig({
 
   search: {
     enable: false,
+  },
+
+  comment: {
+    enable: true,
+  
   },
 
   sponsor: {
