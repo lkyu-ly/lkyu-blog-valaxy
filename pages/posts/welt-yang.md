@@ -5,7 +5,11 @@ tags:
   - 崩坏·星穹铁道
 categories:
   - 图册
-toc: false
+
+aside: false 
+#use toc to control Table of Contents
+#use aside to control right sidebar (maybe in dev)
+
 date: 2023-05-12
 updated: 2023-05-12
 description: 老杨的图
