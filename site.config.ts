@@ -6,6 +6,7 @@ export default defineSiteConfig({
   title: "翎钰的小窝",
   subtitle: "",
   description: "",
+
   author: {
     name: "lkyu",
     avatar: "/favicon.ico",
@@ -13,8 +14,11 @@ export default defineSiteConfig({
       emoji: "🤗",
     },
   },
+
   favicon: "/favicon.ico",
+
   mediumZoom: { enable: true },
+
   social: [
     {
       name: "RSS",
