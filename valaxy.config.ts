@@ -31,14 +31,21 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
 
     sidebar: {
-      src: "/js/sidebar.js",
+      // src: "/js/sidebar.js",
       bg_image: "https://pic.imgdb.cn/item/5fd2473e3ffa7d37b3cb7445.jpg",
       dark_bg_image: "https://pic.imgdb.cn/item/5fd23f433ffa7d37b3c2156b.png",
-      bg_position: "bottom 0rem center",
-      tagcloud: {
-        enable: true,
-        amount: 20,
-      },
+      //bg_position: "bottom 0rem center",
+      /**
+       * tagcloud: {
+       * enable: true,
+       * amount: 20,
+       * },
+       */
+    },
+
+    notice: {
+      enable: true,
+      content: "欢迎你来到我的小站 >_<",
     },
 
     pages: [
