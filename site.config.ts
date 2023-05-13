@@ -15,7 +15,7 @@ export default defineSiteConfig({
     },
   },
 
-  favicon: "/favicon.ico",
+  favicon: "/lkyu.svg",
 
   mediumZoom: { enable: true },
 
