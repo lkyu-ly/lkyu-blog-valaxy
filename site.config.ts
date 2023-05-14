@@ -120,6 +120,13 @@ export default defineSiteConfig({
     enable: true,
     title: "我很可爱，请你白嫖！",
     methods: [
+      
+      {
+        name: '白嫖',
+        url: '/bai-piao.svg',
+        color: '#FFCB53',
+        icon: '🤑',
+      },
       /*
       {
         name: '支付宝',
