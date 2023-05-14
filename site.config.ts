@@ -123,7 +123,7 @@ export default defineSiteConfig({
       
       {
         name: '白嫖',
-        url: '/bai-piao.svg',
+        url: '/bai-piao.png',
         color: '#FFCB53',
         icon: '🤑',
       },
