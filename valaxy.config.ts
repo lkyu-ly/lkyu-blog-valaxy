@@ -31,16 +31,14 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
 
     sidebar: {
-      // src: "/js/sidebar.js",
+      //src: "/js/sidebar.js",
       bg_image: "https://pic.imgdb.cn/item/5fd2473e3ffa7d37b3cb7445.jpg",
       dark_bg_image: "https://pic.imgdb.cn/item/5fd23f433ffa7d37b3c2156b.png",
-      //bg_position: "bottom 0rem center",
-      /**
-       * tagcloud: {
-       * enable: true,
-       * amount: 20,
-       * },
-       */
+      bg_position: "bottom 0rem center",
+      tagcloud: {
+        enable: true,
+        amount: 20,
+      },
     },
 
     notice: {
@@ -49,7 +47,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
 
     pages: [
-      /*{
+      {
         name: "我的小伙伴们",
         url: "/links/",
         icon: "i-ri-genderless-line",
@@ -60,7 +58,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         url: "/girls/",
         icon: "i-ri-women-line",
         color: "hotpink",
-      },*/
+      },
     ],
 
     footer: {
