@@ -60,7 +60,6 @@ export default defineValaxyConfig<UserThemeConfig>({
         color: "hotpink",
       },
     ],
-
     footer: {
       since: 2020,
       beian: {

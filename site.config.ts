@@ -120,12 +120,11 @@ export default defineSiteConfig({
     enable: true,
     title: "我很可爱，请你白嫖！",
     methods: [
-      
       {
-        name: '白嫖',
-        url: '/bai-piao.png',
-        color: '#FFCB53',
-        icon: '🤑',
+        name: "白嫖",
+        url: "/bai-piao.png",
+        color: "#FFCB53",
+        icon: "🤑",
       },
       /*
       {
