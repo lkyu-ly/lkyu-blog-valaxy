@@ -11,13 +11,14 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "valaxy": "^0.14.36",
+    "valaxy": "^0.14.45",
     "valaxy-addon-components": "^0.0.1",
     "valaxy-addon-waline": "^0.1.0",
-    "valaxy-theme-yun": "^0.14.36",
-    "vite-plugin-pwa": "^0.16.4"
+    "valaxy-theme-yun": "^0.14.45",
+    "vite-plugin-pwa": "^0.16.4",
+    "vue-gtag-next": "^1.14.0"
   },
   "devDependencies": {
-    "typescript": "^4.8.4"
+    "typescript": "^5.1.6"
   }
 }
