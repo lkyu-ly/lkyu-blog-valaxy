@@ -5,7 +5,7 @@ tags:
   - 崩坏·星穹铁道
 categories:
   - 图册
-
+hide: true
 aside: false 
 #use toc to control Table of Contents
 #use aside to control right sidebar (maybe in dev)
