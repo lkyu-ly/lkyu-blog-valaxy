@@ -21,7 +21,10 @@ description:
 
 Windows PE（Preinstallation Environment，即“预安装环境”）是一种被广泛用于为电脑生产商、工作站以及服务器设置定制的操作环境或在离线时排除电脑故障的轻量化 Windows 版本，以下简称为 PE。正因为 PE 是通过在 Windows 操作系统的基础上删除了许多不必要的功能得到的，其体积可以做到足够小，非常适合搭载在运行速率不够快的储存介质上。而且值得注意的是，PE 是完全加载到内存中运行的，这说明它可以摆脱系统运行中需要占用及读写磁盘的依赖，即便将搭载 PE 的存储介质直接拔出，也不会影响到 PE 的工作。
 
-![1.1](<https://pic.imgdb.cn/item/65084192204c2e34d3a643dd.png> =300x)_[微软官方](learn.microsoft.com)对 PE 的解释_
+<center>
+<img src="https://pic.imgdb.cn/item/65084192204c2e34d3a643dd.png" width=70% />
+<a href="https://learn.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/winpe-intro">微软官方对 PE 的解释</a>
+</center>
 
 实际上，使用我们自己的理解方式，PE 是一个本体一般位于电脑之外的系统，通过从 PE 启动的方式，电脑可以绕过自身硬盘来到 PE 中，因而可以实现已经无法启动系统的电脑的启动，以及对电脑原硬盘的操作，因为此时原硬盘中的系统并未启动，磁盘不会被原系统占用。
 
@@ -56,27 +59,35 @@ Windows PE（Preinstallation Environment，即“预安装环境”）是一种�
 
 在官网下载好 WEPE 的 64 位安装包（本文默认目标维护电脑为 64 位）。**关闭本机所有杀毒软件**然后再**以管理员模式运行**`WePE64_Vx.x.exe`，稍作等待后你应该会看到下面的界面：
 
-![2.2.1](https://pic.imgdb.cn/item/65084192204c2e34d3a6440b.png)
+<center>
+<img src="https://pic.imgdb.cn/item/65084192204c2e34d3a6440b.png" width=60% />
+</center>
 
 由于本文中我们要制作 PE 系统，应将 U 盘作为其载体，所以此时应点击上图红框中的“安装 PE 到 U 盘”按钮，进入下图所示的界面，并插入待安装 U 盘（上一步先插也行）：
 
-![2.2.2](https://pic.imgdb.cn/item/65084192204c2e34d3a643c6.png)
+<center>
+<img src="https://pic.imgdb.cn/item/65084192204c2e34d3a643c6.png" width=60% />
+</center>
 
 图片中各项内容解释如下（其余选项一般保持默认）：
 
+<span id="待写入U盘"></span>
+
 - **安装方法**：对于适用于绝大多数电脑的 PE，我们选择软件推荐的安装方式。
-    <span id="待写入U盘"></span>
 - **待写入 U 盘**：为防止误格式化，软件默认不显示电脑内置的硬盘，请根据名称和大小选择正确的安装位置。若此列表中没有你的目标设备，请检查其占用情况，避免因占用而无法读写的情况。
 - **格式化**：默认即可。
 - **卷标**：制作好的 PE 显示出来的分区名，可以随意取，但注意尽量不要带有中文字符。
 
 完成选项的修改后，点击“立刻安装进 U 盘”按钮，软件会进行如下提示：
-
-![2.2.3](https://pic.imgdb.cn/item/65084192204c2e34d3a643d0.png)
+<center>
+<img src="https://pic.imgdb.cn/item/65084192204c2e34d3a643d0.png" width=60% />
+</center>
 
 确定一切准备无误后，即可点击“开始制作”将 PE 写入介质中，如果流程正确的话，你将会看到下面的安装进度界面：
 
-![2.2.4](https://pic.imgdb.cn/item/650841d2204c2e34d3a64a1d.png)
+<center>
+<img src="https://pic.imgdb.cn/item/650841d2204c2e34d3a64a1d.png" width=60% />
+</center>
 
 - 注：
     >
@@ -85,11 +96,15 @@ Windows PE（Preinstallation Environment，即“预安装环境”）是一种�
 
 安装完成后，看到如图所示界面就代表安装成功，此时点击完成安装即可。
 
-![2.2.5](https://pic.imgdb.cn/item/650841da204c2e34d3a64b0a.png)
+<center>
+<img src="https://pic.imgdb.cn/item/650841da204c2e34d3a64b0a.png" width=60% />
+</center>
 
 此时我们不要急着拔出 U 盘，来到资源管理器，制作好 PE 的介质不会消失，但其可用空间会略有减少（这是因为 PE 系统本体以及引导分区被设置为隐藏分区）：
 
-![2.2.6](https://pic.imgdb.cn/item/650841da204c2e34d3a64b12.png)
+<center>
+<img src="https://pic.imgdb.cn/item/650841da204c2e34d3a64b12.png" width=60% />
+</center>
 
 此时我们的 U 盘仍是可用的，可以将其他想随介质一同带入目标电脑的软件和系统镜像放入此空间，后续这些文件也会显示在启动的 PE 系统中。
 
@@ -99,17 +114,25 @@ Windows PE（Preinstallation Environment，即“预安装环境”）是一种�
 
 FirPE 的制作与 WEPE 的制作大同小异，学会 WEPE 的制作后便可基本上手 FirPE 的制作方法。
 
-![2.3,1](https://pic.imgdb.cn/item/650841da204c2e34d3a64b24.png)
+<center>
+<img src="https://pic.imgdb.cn/item/650841da204c2e34d3a64b24.png" width=60% />
+</center>
 
 设备的选择参考上一节的[待写入U盘](#待写入U盘)。选择调整好以上参数后，点击全新制作即可。
 
-![2.3.2](https://pic.imgdb.cn/item/650841da204c2e34d3a64b32.png)
+<center>
+<img src="https://pic.imgdb.cn/item/650841da204c2e34d3a64b32.png" width=60% />
+</center>
 
 确认注意事项后，等待进度条跑完即可完成制作。
 
-![2.3.3](https://pic.imgdb.cn/item/650841da204c2e34d3a64b4d.png)_写入过程_
+<center>
+<img src="https://pic.imgdb.cn/item/650841da204c2e34d3a64b4d.png" width=60% />写入过程
+</center>
 
-![2.3.4](https://pic.imgdb.cn/item/650841e7204c2e34d3a64d5d.png)_制作成功_
+<center>
+<img src="https://pic.imgdb.cn/item/650841e7204c2e34d3a64d5d.png" width=60% />制作成功
+</center>
 
 #### 使用Ventoy引导各种PE和系统镜像
 
@@ -121,22 +144,30 @@ FirPE 的制作与 WEPE 的制作大同小异，学会 WEPE 的制作后便可�
 
 在Ventoy官网的[文档手册](https://www.ventoy.net/cn/doc_news.html)中，“[Ventoy内部原理](https://www.ventoy.net/cn/doc_composition.html)”一章对ventoy的内部原理，以及针对MBR和GPT格式的磁盘的分区构成进行了较为详细的说明，这里就不再转述。只是需要注意的是：如果你的硬盘中有较大量数据并且想使用“无损安装”功能的话，请详细阅读官方文档关于此功能的介绍和使用限制，本文仅介绍较为通用的全新安装方式。
 
-![2.4.1](https://pic.imgdb.cn/item/650841e7204c2e34d3a64d68.png)
-
+<center>
+<img src="https://pic.imgdb.cn/item/650841e7204c2e34d3a64d68.png" width=60% />
+</center>
 在详细阅读了WEPE和FirPE的基础上，你应该已经学会了储存介质的选择，除此之外所有设置保持默认即可。点击安装按钮即可安装Ventoy到设备中：
-![2.4.2](https://pic.imgdb.cn/item/650841e7204c2e34d3a64d76.png)
+<center>
+
+<img src="https://pic.imgdb.cn/item/650841e7204c2e34d3a64d76.png" width=60% />
+</center>
 
 安装完成后，你只需要将各种系统、PE的ISO镜像文件移入U盘，即可完成可以启动他们的Ventoy设备。PE的ISO镜像文件提取方式详见下一节。
 
 #### 使用rufus自行制作可启动介质
 
-![2.5.1](https://pic.imgdb.cn/item/650841e8204c2e34d3a64d8c.png)_Rufus官网介绍_
+<center>
+<img src="https://pic.imgdb.cn/item/650841e8204c2e34d3a64d8c.png" width=60% />Rufus官网介绍
+</center>
 
 在极个别情况下，使用WEPE和FirPE制作的设备不能在某些机器上正确启动，此时可以使用rufus手动创建可启动介质。
 
 首先导出PE系统的安装镜像：在WEPE软件中，“生成可启动ISO”功能位于软件右下角的光盘图标；FirPE软件中，同样在左下角有生成ISO的选项。点击即可导出ISO镜像。
 
-![2.5.2](https://pic.imgdb.cn/item/650841e8204c2e34d3a64daa.png)
+<center>
+<img src="https://pic.imgdb.cn/item/650841e8204c2e34d3a64daa.png" width=60% />
+</center>
 
 在Rufus工具中选择合适的介质，在“Boot selection”选项中点击右侧的“Select”找到并选择刚刚导出的镜像文件，其他选项默认即可，点击“START”即可开始制作。
 
