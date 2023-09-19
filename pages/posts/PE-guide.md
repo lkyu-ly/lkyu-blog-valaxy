@@ -146,9 +146,9 @@ FirPE 的制作与 WEPE 的制作大同小异，学会 WEPE 的制作后便可�
 
 一般来说，以上两种方式已经可以制作出稳定易用的 PE，完全可以满足想临时使用一次 PE 环境的同学的几乎全部需求。因此，Ventoy 并不需要这类同学去学习其安装使用，但如果你主张启动盘的优雅高效，或是需要经常使用 PE 来维护系统，抑或经常需要直接运行各种不同的系统镜像进行部署，那么我很推荐大容量移动硬盘 + Ventoy 的安装方案。
 
-> 简单来讲，Ventoy 是一个制作可启动 U 盘的开源工具。有了 Ventoy 你就无需反复地格式化 U 盘，你只需要把 ISO/WIM/IMG/VHD(x)/EFI 等类型的文件直接拷贝到 U 盘里面就可以启动了，无需其他操作。你可以一次性拷贝很多个不同类型的镜像文件，Ventoy 会在启动时显示一个菜单来供你进行选择。你还可以在 Ventoy 的界面中直接浏览并启动本地硬盘中的 ISO/WIM/IMG/VHD(x)/EFI 等类型的文件。Ventoy 安装之后，同一个 U 盘可以同时支持 x86 Legacy BIOS、IA32 UEFI、x86_64 UEFI、ARM64 UEFI 和 MIPS64EL UEFI 模式，同时还不影响 U 盘的日常使用。
+> _简单来讲，Ventoy 是一个制作可启动 U 盘的开源工具。有了 Ventoy 你就无需反复地格式化 U 盘，你只需要把 ISO/WIM/IMG/VHD(x)/EFI 等类型的文件直接拷贝到 U 盘里面就可以启动了，无需其他操作。你可以一次性拷贝很多个不同类型的镜像文件，Ventoy 会在启动时显示一个菜单来供你进行选择。你还可以在 Ventoy 的界面中直接浏览并启动本地硬盘中的 ISO/WIM/IMG/VHD(x)/EFI 等类型的文件。Ventoy 安装之后，同一个 U 盘可以同时支持 x86 Legacy BIOS、IA32 UEFI、x86_64 UEFI、ARM64 UEFI 和 MIPS64EL UEFI 模式，同时还不影响 U 盘的日常使用。_
 >
-> <p align="right">—— Ventoy 官网</p>
+> <p align="right"><i>—— Ventoy 官网</i></p>
 
 在 Ventoy 官网的[文档手册](https://www.ventoy.net/cn/doc_news.html)中，“[Ventoy 内部原理](https://www.ventoy.net/cn/doc_composition.html)”一章对 Ventoy 的内部原理，以及针对 MBR 和 GPT 格式的磁盘的分区构成进行了较为详细的说明，这里就不再转述。只是需要注意的是：如果你的硬盘中有较大量数据并且想使用“无损安装”功能的话，请详细阅读官方文档关于此功能的介绍和使用限制。由于此安装方式需要拥有较为深层的磁盘知识，仅适合更加进阶的使用，本文仅介绍较为通用的“全新安装”方式。
 
