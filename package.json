@@ -11,10 +11,10 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "valaxy": "^0.14.45",
+    "valaxy": "^0.14.61",
     "valaxy-addon-components": "^0.0.1",
     "valaxy-addon-waline": "^0.1.0",
-    "valaxy-theme-yun": "^0.14.45",
+    "valaxy-theme-yun": "^0.14.61",
     "vite-plugin-pwa": "^0.16.4",
     "vue-gtag-next": "^1.14.0"
   },

@@ -21,9 +21,10 @@ description:
 
 Windows PE（Preinstallation Environment，即“预安装环境”）是一种被广泛用于为电脑生产商、工作站以及服务器设置定制的操作环境或在离线时排除电脑故障的轻量化 Windows 版本，以下简称为 PE。正因为 PE 是通过在 Windows 操作系统（有时又被称为“母盘”）的基础上删除了许多不必要的功能得到的，其体积可以做到足够小（通常仅为数百 MB），非常适合搭载在运行速率不够快的储存介质上。而且值得注意的是，PE 在启动时是完全加载到内存中运行的，这说明它可以摆脱系统运行中需要占用及读写磁盘的依赖。启动后，即便将搭载 PE 的存储介质直接拔出，也不会影响到 PE 的后续工作。
 
+<div style="text-align: center; width: 60%">
 <img src="https://pic.imgdb.cn/item/65084192204c2e34d3a643dd.png" />
-
-<div style="text-align: center;"><a href="https://learn.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/winpe-intro" >微软官方对 PE 的解释</a></div>
+<a href="https://learn.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/winpe-intro" >微软官方对 PE 的解释</a>
+</div>
 
 实际上，使用自己的理解方式来讲，PE 是一个本体一般位于电脑之外的系统，通过从 PE 启动的方式，电脑可以绕过自身硬盘来到电脑外部的另一个操作系统中，因而可以实现已经无法启动系统的电脑的正常启动（即使被启动的不是原系统），以及对电脑原硬盘的操作，因为此时原硬盘中的系统并未启动，磁盘不会被原系统占用，也通常不会出现因磁盘中系统正在运行而无法操作磁盘的问题。
 
@@ -57,10 +58,10 @@ Windows PE（Preinstallation Environment，即“预安装环境”）是一种�
 - **注**：注意到 WEPE 中磁盘分区管理工具 DiskGenius 为 32 位，其某些操作对于装有 64 位操作系统的磁盘无效，因此如果有磁盘管理需求的同学请考虑下一节所介绍的 FirPE。另由于两种 PE 的制作方法大同小异，本文目前先详细介绍 WEPE 的制作方法。
 
 在官网下载好 WEPE 的 64 位安装包（基于当下的电脑处理器以及系统情况，本文默认目标维护电脑为 64 位，如果目标维护电脑为 32 位处理器/系统，请下载所有对应软件的 32 位版本使用）。**关闭本机所有杀毒软件**然后再**以管理员模式运行**`WePE64_Vx.x.exe`，稍作等待后你应该会看到如下的界面：
-
-<center>
+<div style="text-align: center;width: 60%">
 <img src="https://pic.imgdb.cn/item/65084192204c2e34d3a6440b.png" style="border-width: 1.5px;border-style: solid;border-color: rgb(239, 112, 96);" width="60%" />
-</center>
+</div>
+
 
 由于本文中我们的目的是要制作 PE 系统，应将 U 盘作为其载体，所以此时应点击上图红框中的“安装 PE 到 U 盘”按钮，进入下图所示的界面，并插入待安装 U 盘（上一步题前插如也是可以的）：
 
