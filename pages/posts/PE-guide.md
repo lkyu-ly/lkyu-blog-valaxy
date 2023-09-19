@@ -22,7 +22,8 @@ description:
 Windows PE（Preinstallation Environment，即“预安装环境”）是一种被广泛用于为电脑生产商、工作站以及服务器设置定制的操作环境或在离线时排除电脑故障的轻量化 Windows 版本，以下简称为 PE。正因为 PE 是通过在 Windows 操作系统（有时又被称为“母盘”）的基础上删除了许多不必要的功能得到的，其体积可以做到足够小（通常仅为数百 MB），非常适合搭载在运行速率不够快的储存介质上。而且值得注意的是，PE 在启动时是完全加载到内存中运行的，这说明它可以摆脱系统运行中需要占用及读写磁盘的依赖。启动后，即便将搭载 PE 的存储介质直接拔出，也不会影响到 PE 的后续工作。
 
 <img src="https://pic.imgdb.cn/item/65084192204c2e34d3a643dd.png" width="60%" />
-<a href="https://learn.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/winpe-intro" style="text-align: center;">微软官方对 PE 的解释</a>
+
+<div style="text-align: center;"><a href="https://learn.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/winpe-intro" >微软官方对 PE 的解释</a></div>
 
 实际上，使用自己的理解方式来讲，PE 是一个本体一般位于电脑之外的系统，通过从 PE 启动的方式，电脑可以绕过自身硬盘来到电脑外部的另一个操作系统中，因而可以实现已经无法启动系统的电脑的正常启动（即使被启动的不是原系统），以及对电脑原硬盘的操作，因为此时原硬盘中的系统并未启动，磁盘不会被原系统占用，也通常不会出现因磁盘中系统正在运行而无法操作磁盘的问题。
 
