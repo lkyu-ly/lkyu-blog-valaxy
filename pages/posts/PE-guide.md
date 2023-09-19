@@ -65,7 +65,7 @@ Windows PE（Preinstallation Environment，即“预安装环境”）是一种�
 <img src="https://pic.imgdb.cn/item/65084192204c2e34d3a6440b.png" style="border-width: 1.5px;border-style: solid;border-color: rgb(239, 112, 96);" />
 </div>
 
-由于本文中我们的目的是要制作 PE 系统，应将 U 盘作为其载体，所以此时应点击上图红框中的“安装 PE 到 U 盘”按钮，进入下图所示的界面，并插入待安装 U 盘（上一步题前插如也是可以的）：
+由于本文中我们的目的是要制作 PE 系统，应将 U 盘作为其载体，所以此时应点击上图红框中的“安装 PE 到 U 盘”按钮，进入下图所示的界面，并插入待安装 U 盘（上一步提前插入也是可以的）：
 
 <div style="margin: 0 auto; text-align: center; width: 60%">
 <img src="https://pic.imgdb.cn/item/65084192204c2e34d3a643c6.png" style="border-width: 1.5px;border-style: solid;border-color: rgb(239, 112, 96);" />
