@@ -5,8 +5,8 @@ tags:
   - 作业
 categories:
 
-date: 2023-11-10
-updated: 2023-11-10
+date: 
+updated: 
 description:
 ---
 ## 一、实验内容
@@ -71,16 +71,25 @@ median.Score <- median(Score)
 var.Score <- var(Score)
 sd.Score <- sd(Score)
 
-hist(Score, freq = F, main = "Frequency Histogram", xlab = "Values", ylab = "Frequency", col = "#00ff00")
+hist(Score,
+    freq = F, main = "Frequency Histogram",
+    xlab = "Values", ylab = "Frequency", col = "#00ff00"
+)
 lines(density(Score), col = "#0088FF", lwd = 3)
 x <- seq(from = 10, to = 100, by = 0.01)
 lines(x, dnorm(x, mean(Score), sd(Score)), col = "red", lwd = 3)
 print("") # 空函数，断点使用
 
-plot(ecdf(Score), verticals = T, do.p = F, main = "Empirical Cumulative Distribution Function", xlab = "Values", ylab = "Cumulative Probability", col = "blue", lwd = 2)
+plot(ecdf(Score),
+    verticals = T, do.p = F,
+    main = "Empirical Cumulative Distribution Function",
+    xlab = "Values", ylab = "Cumulative Probability",
+    col = "blue", lwd = 2
+)
 x <- seq(10, 100, 0.01)
 lines(x, pnorm(x, mean(Score), sd(Score)), col = "red", lwd = 2)
 print("") # 空函数，断点使用
+
 ```
 
 ### 3.2 运行程序
