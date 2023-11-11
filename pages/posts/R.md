@@ -4,11 +4,12 @@ author: lkyu
 tags:
   - 作业
 categories:
-
-date: 
-updated: 
+  - 作业
+date: 2023-11-10
+updated: 2023-11-11
 description:
 ---
+
 ## 一、实验内容
 
 1. 选择一组有意义的数据（不少于30个）或采用习题6中第4题数据；

@@ -4,8 +4,9 @@ author: lkyu
 hide: false
 tags:
   - 教程
+  - Windows
 categories:
-  - lkyu 的小教程
+  - 技术类
 description: 开机重启桌面的批处理
 date: 2021-07-18 00:00:00
 updated: 2021-07-18 00:00:00

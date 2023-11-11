@@ -7,9 +7,9 @@ tags:
   - 域名
   - freenom
 categories:
-  - lkyu 的小教程
+  - 技术类
 description: 记录了我在freenom成功申请免费域名的过程
-date: 2021-07-01
+date: 2021-7-1
 updated: 2023-5-12
 ---
 

@@ -4,8 +4,9 @@ author: lkyu
 tags:
   - 人生
   - 大学
-categories:
   - 短文
+categories:
+  - 作业
 date: 2023-05-12
 updated: 2023-05-12
 description: 《大学生活与人生轨迹》课程论文
