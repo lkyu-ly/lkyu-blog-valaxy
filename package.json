@@ -2,6 +2,7 @@
   "name": "lkyu-blog-valaxy",
   "version": "0.14.28",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "npm run build:ssg && npm run rss",
     "build:spa": "valaxy build",
@@ -13,7 +14,7 @@
   "dependencies": {
     "@unhead/schema-org": "^1.8.8",
     "markdown-it-anchor": "^8.6.7",
-    "valaxy": "^0.14.61",
+    "valaxy": "^0.15.14",
     "valaxy-addon-components": "^0.0.1",
     "valaxy-addon-waline": "^0.1.1",
     "valaxy-theme-yun": "^0.15.14",
