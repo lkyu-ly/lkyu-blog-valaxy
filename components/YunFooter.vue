@@ -1,10 +1,13 @@
 <script lang="ts" setup>
-// @ts-expect-error vue
 import YunFooter from "valaxy-theme-yun/components/YunFooter.vue";
 </script>
 
 <template>
   <YunFooter>
-    <CdnLogo />
+    <VCLiveTime mt="2" start-time="2020-12-04">
+      <template #live-time-before>
+        <span>本站已运行</span>
+      </template>
+    </VCLiveTime>
   </YunFooter>
 </template>

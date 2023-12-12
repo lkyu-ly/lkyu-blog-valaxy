@@ -1,25 +1,33 @@
 {
   "name": "lkyu-blog-valaxy",
-  "version": "0.14.28",
+  "version": "0.15.14",
   "private": true,
   "type": "module",
+  "valaxy": {
+    "theme": "yun"
+  },
   "scripts": {
-    "build": "npm run build:ssg && npm run rss",
-    "build:spa": "valaxy build",
+    "build": "npm run fuse && npm run build:ssg",
     "build:ssg": "valaxy build --ssg",
-    "dev": "valaxy",
+    "fuse": "valaxy fuse",
     "rss": "valaxy rss",
-    "serve": "vite preview"
+    "clean": "rm -rf dist",
+    "new": "valaxy new",
+    "serve": "vite preview",
+    "dev": "valaxy"
   },
   "dependencies": {
-    "@unhead/schema-org": "^1.8.8",
-    "markdown-it-anchor": "^8.6.7",
+    "@explosions/fireworks": "^0.0.2",
     "valaxy": "^0.15.14",
-    "valaxy-addon-components": "^0.0.1",
+    "valaxy-addon-components": "^0.0.2",
     "valaxy-addon-waline": "^0.1.1",
     "valaxy-theme-yun": "^0.15.14",
+    "vite": "^5.0.7",
     "vite-plugin-pwa": "^0.17.4",
-    "vue-gtag-next": "^1.14.0"
+    "vue": "^3.3.11",
+    "vue-gtag-next": "^1.14.0",
+    "workbox-build": "^7.0.0",
+    "workbox-window": "^7.0.0"
   },
   "devDependencies": {
     "typescript": "^5.1.6"

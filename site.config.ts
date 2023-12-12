@@ -108,10 +108,6 @@ export default defineSiteConfig({
     },*/
   ],
 
-  search: {
-    enable: false,
-  },
-
   comment: {
     enable: true,
   },
@@ -156,6 +152,32 @@ export default defineSiteConfig({
         cn: 300,
         en: 200,
       },
+    },
+  },
+
+  codeHeightLimit: 300,
+
+  search: {
+    enable: true,
+    type: "fuse",
+  },
+
+  fuse: {
+    options: {
+      keys: ["title", "tags", "categories", "excerpt", "content"],
+      /**
+       * @default 0.6
+       * @see https://www.fusejs.io/api/options.html#threshold
+       * 设置匹配阈值，越低越精确
+       */
+      // threshold: 0.6,
+      /**
+       * @default false
+       * @see https://www.fusejs.io/api/options.html#ignoreLocation
+       * 忽略位置
+       * 这对于搜索文档全文内容有用，若无需全文搜索，则无需设置此项
+       */
+      ignoreLocation: true,
     },
   },
 });
