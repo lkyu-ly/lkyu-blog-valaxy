@@ -1,4 +1,6 @@
+// Valaxy 配置文件
 import { defineValaxyConfig } from "valaxy";
+import { addonComponents } from "valaxy-addon-components";
 import { addonWaline } from "valaxy-addon-waline";
 import type { UserThemeConfig } from "valaxy-theme-yun";
 
@@ -13,6 +15,12 @@ export default defineValaxyConfig<UserThemeConfig>({
 
   theme: "yun",
 
+  modules: {
+    rss: {
+      enable: true,
+    },
+  },
+
   themeConfig: {
     banner: {
       enable: true,
@@ -25,8 +33,8 @@ export default defineValaxyConfig<UserThemeConfig>({
     bg_image: {
       enable: true,
       url: "https://pic.imgdb.cn/item/5fd234093ffa7d37b3b4e5e1.jpg",
-      /*dark:
-      blur: 30px , 设置背景模糊程度 */
+      dark: "https://pic.imgdb.cn/item/5fd234093ffa7d37b3b4e5e1.jpg",
+      // blur: 30px , 设置背景模糊程度
       opacity: 0.6,
     },
 
@@ -65,6 +73,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         color: "hotpink",
       },
     ],
+
     footer: {
       since: 2020,
       beian: {
@@ -81,5 +90,6 @@ export default defineValaxyConfig<UserThemeConfig>({
       serverURL: "https://waline.lkyu.cf",
       comment: true,
     }),
+    addonComponents(),
   ],
 });

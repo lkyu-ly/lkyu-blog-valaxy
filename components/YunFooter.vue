@@ -4,7 +4,7 @@ import YunFooter from "valaxy-theme-yun/components/YunFooter.vue";
 
 <template>
   <YunFooter>
-    <VCLiveTime mt="2" start-time="2020-12-04">
+    <VCLiveTime start-time="2020-12-04">
       <template #live-time-before>
         <span>本站已运行</span>
       </template>
