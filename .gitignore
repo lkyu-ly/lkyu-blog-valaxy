@@ -19,6 +19,7 @@ dist-ssr
 node_modules
 .idea/
 *.log
+.editorconfig
 
 components.d.ts
 
