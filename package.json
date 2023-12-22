@@ -22,6 +22,7 @@
     "@types/markdown-it": "^13.0.7",
     "@unhead/schema-org": "^1.8.9",
     "@unhead/shared": "^1.8.9",
+    "@vercel/speed-insights": "^1.0.2",
     "postcss": "^8.4.32",
     "unhead": "^1.8.9",
     "valaxy": "^0.16.0",
