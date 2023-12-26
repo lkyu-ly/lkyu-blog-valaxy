@@ -101,4 +101,17 @@ export default defineValaxyConfig<UserThemeConfig>({
 		}),
 		addonComponents(),
 	],
+
+	markdown: {
+		lineNumbers: true,
+		/**
+		 * KaTeX options
+		 * @see https://katex.org/docs/options.html
+		 */
+		katex: {
+			strict: false,
+			displayMode: true,
+			colorIsTextColor: true,
+		},
+	},
 });
