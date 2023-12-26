@@ -96,7 +96,7 @@ export default defineValaxyConfig<UserThemeConfig>({
 				'https://unpkg.com/@waline/emojis@1.2.0/qq',
 			],
 			search: true,
-			reaction: true,
+			reaction: false,
 			lang: 'zh-CN',
 		}),
 		addonComponents(),
