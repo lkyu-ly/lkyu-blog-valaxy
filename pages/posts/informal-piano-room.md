@@ -2,10 +2,10 @@
 title: 钢琴教室平面图（随手瞎画）
 author: lkyu
 tags:
-  - 作业
-  - 多图警告
+    - 作业
+    - 多图警告
 categories:
-  - 作业
+    - 作业
 date: 2023-05-13
 updated: 2023-05-13
 aside: false

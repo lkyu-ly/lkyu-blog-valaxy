@@ -1,9 +1,9 @@
 ---
 title: 云游的小项目们
 tags:
-  - 项目
+    - 项目
 categories:
-  - 云游的小项目
+    - 云游的小项目
 date: 2016-01-01 00:00:00
 updated: 2016-01-01 00:00:00
 hide: true
@@ -25,9 +25,9 @@ hide: true
 
 ![GitHub stars](https://img.shields.io/github/stars/YunYouJun/hexo-theme-yun?style=social)
 
-- GitHub: <https://github.com/YunYouJun/hexo-theme-yun>
-- Docs: <https://yun.yunyoujun.cn>
-- Example: <https://www.yunyoujun.cn>
+-   GitHub: <https://github.com/YunYouJun/hexo-theme-yun>
+-   Docs: <https://yun.yunyoujun.cn>
+-   Example: <https://www.yunyoujun.cn>
 
 #### AIS.js
 
@@ -39,9 +39,9 @@ Tags: `Vue` / `npm` / `Element` / `JavaScript`
 
 解析包打包为 npm 包 [ais-json](https://www.npmjs.com/package/ais-json)
 
-- Web: <https://ais.js.org>
-- GitHub: [ais.js](https://github.com/YunYouJun/ais.js)
-- GitHub: [ais-json](https://github.com/YunYouJun/ais-json)
+-   Web: <https://ais.js.org>
+-   GitHub: [ais.js](https://github.com/YunYouJun/ais.js)
+-   GitHub: [ais-json](https://github.com/YunYouJun/ais-json)
 
 #### Element-Theme-Ink
 
@@ -51,17 +51,17 @@ Tags: `Element` / `Scss` / `Theme`
 
 基于 [Element](https://github.com/ElemeFE/element) 所写的极简主题样式。
 
-- Web: <https://ink.yunyoujun.cn/>
-- GitHub: [element-theme-ink](https://github.com/YunYouJun/element-theme-ink)
-- GitHub: [element-theme-ink-preview](https://github.com/YunYouJun/element-theme-ink-preview)
-- npm: [element-theme-ink](https://www.npmjs.com/package/element-theme-ink)
-- unpkg: [element-theme-ink](https://unpkg.com/element-theme-ink)
+-   Web: <https://ink.yunyoujun.cn/>
+-   GitHub: [element-theme-ink](https://github.com/YunYouJun/element-theme-ink)
+-   GitHub: [element-theme-ink-preview](https://github.com/YunYouJun/element-theme-ink-preview)
+-   npm: [element-theme-ink](https://www.npmjs.com/package/element-theme-ink)
+-   unpkg: [element-theme-ink](https://unpkg.com/element-theme-ink)
 
 #### Paper Star
 
 > 跨平台飞行射击游戏
 
-- GitHub: <https://github.com/PaperStar>
+-   GitHub: <https://github.com/PaperStar>
 
 待补充...
 
@@ -73,8 +73,8 @@ Tags: `Vue` / `Parcel` / `LeanCloud`
 
 我很可爱，请给我钱。
 
-- Web: [预览地址](https://yunyoujun.github.io/give-me-money/)
-- GitHub: [give-me-money](https://github.com/YunYouJun/give-me-money)
+-   Web: [预览地址](https://yunyoujun.github.io/give-me-money/)
+-   GitHub: [give-me-money](https://github.com/YunYouJun/give-me-money)
 
 #### 仿 2048 小游戏
 

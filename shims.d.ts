@@ -10,5 +10,5 @@
 // }
 
 declare interface window {
-  __DEV__: boolean;
+	__DEV__: boolean;
 }

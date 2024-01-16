@@ -2,11 +2,11 @@
 title: 从博弈角度探究教师布置课堂作业的最有效方式
 author: lkyu
 tags:
-  - 心理学
-  - 作业
-  - 短文
+    - 心理学
+    - 作业
+    - 短文
 categories:
-  - 作业
+    - 作业
 date: 2023-05-13
 updated: 2023-05-13
 description: 《大学生活与人生轨迹》课程论文

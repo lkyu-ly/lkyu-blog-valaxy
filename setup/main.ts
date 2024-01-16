@@ -1,6 +1,7 @@
-import { defineAppSetup } from "valaxy";
-import { install as installGtag } from "./gtag";
+import { defineAppSetup } from 'valaxy';
 
-export default defineAppSetup((ctx) => {
-  installGtag(ctx);
+import { install as installGtag } from './gtag';
+
+export default defineAppSetup(ctx => {
+	installGtag(ctx);
 });

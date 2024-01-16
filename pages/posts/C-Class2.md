@@ -2,10 +2,10 @@
 title: 猴博士C语言第二课笔记
 author: lkyu
 tags:
-  - 笔记
-  - C语言
+    - 笔记
+    - C语言
 categories:
-  - 笔记
+    - 笔记
 date: 2022-09-09 00:00:00
 updated: 2022-09-11 00:00:00
 description:

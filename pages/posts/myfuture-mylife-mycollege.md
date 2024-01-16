@@ -2,11 +2,11 @@
 title: 未来，我的人生，我的大学
 author: lkyu
 tags:
-  - 人生
-  - 大学
-  - 短文
+    - 人生
+    - 大学
+    - 短文
 categories:
-  - 作业
+    - 作业
 date: 2023-05-12
 updated: 2023-05-12
 description: 《大学生活与人生轨迹》课程论文

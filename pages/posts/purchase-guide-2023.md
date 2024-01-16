@@ -2,10 +2,10 @@
 title: 2023年6月购机指南——前·电脑110俱乐部
 author: 劳家康
 tags:
-  - 教程
-  - 多图警告
+    - 教程
+    - 多图警告
 categories:
-  - 技术类
+    - 技术类
 date: 2023-6-2
 updated: 2023-7-22
 description:
