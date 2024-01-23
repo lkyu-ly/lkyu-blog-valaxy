@@ -18,7 +18,7 @@ aside: false
 
 ## 图片版
 
-::: details 全都是图，注意流量
+::: details 点开之后全都是图，注意流量
 
 ![purchase-guide2023-01.png](https://pic.imgdb.cn/item/64bb7f351ddac507cc271bf2.png)
 
