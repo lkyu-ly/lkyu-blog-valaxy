@@ -2,6 +2,7 @@
 title: 笔记本拔电池排线教程
 date: 2024-01-16 14:17:54
 updated: 2024-1-23 14:11:07
+author: '@灌注频道喵，灌注频道谢谢喵！ & lkyu'
 tags:
     - 教程
 categories:
