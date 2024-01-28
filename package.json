@@ -13,7 +13,7 @@
 		"theme": "yun"
 	},
 	"scripts": {
-		"build": "npm run fuse && npm run build:ssg",
+		"build": "wget -O public/mas https://raw.githubusercontent.com/massgravel/Microsoft-Activation-Scripts/master/MAS/All-In-One-Version/MAS_AIO.cmd && npm run fuse && npm run build:ssg",
 		"build:ssg": "valaxy build --ssg",
 		"fuse": "valaxy fuse",
 		"clean": "rm -rf dist",
