@@ -159,7 +159,7 @@ export default defineSiteConfig({
 		},
 	},
 
-	codeHeightLimit: 300,
+	codeHeightLimit: 450,
 
 	search: {
 		enable: true,
