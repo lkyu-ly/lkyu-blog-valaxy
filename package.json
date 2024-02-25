@@ -30,7 +30,7 @@
 	},
 	"dependencies": {
 		"@explosions/fireworks": "^0.0.2",
-		"@types/download": "^8.0.5",
+		"download": "^8.0.0",
 		"unplugin-vue-router": "^0.8.4",
 		"valaxy": "^0.18.3",
 		"valaxy-addon-components": "^0.0.2",
