@@ -1,9 +1,11 @@
-import { defineValaxyConfig } from 'valaxy';
-import type { ThemeConfig } from 'valaxy-theme-yun';
-import { VitePWA } from 'vite-plugin-pwa';
+import { defineConfig } from 'vite';
 
-export default defineValaxyConfig<ThemeConfig>({
-	vite: {
-		plugins: [VitePWA()],
+// import RemoteAssets from 'vite-plugin-remote-assets'
+
+export default defineConfig({
+	// todo wait upyun assets
+	// plugins: [RemoteAssets()],
+	optimizeDeps: {
+		include: ['@waline/client/component'],
 	},
 });

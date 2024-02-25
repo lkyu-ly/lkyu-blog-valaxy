@@ -1,9 +1,15 @@
 {
 	"name": "lkyu-blog-valaxy",
-	"version": "0.15.14",
+	"version": "2.0.0",
 	"private": true,
 	"type": "module",
-	"description": "LKYU's Blog",
+	"packageManager": "pnpm@8.15.4",
+	"description": "Lkyu's Blog",
+	"author": {
+		"email": "1423782024@qq.com",
+		"name": "Lkyu",
+		"url": "https://www.lkyu.cf"
+	},
 	"homepage": "https://blog.lkyu.cf",
 	"repository": {
 		"type": "git",
@@ -17,7 +23,6 @@
 		"build:ssg": "valaxy build --ssg",
 		"fuse": "valaxy fuse",
 		"clean": "rm -rf dist",
-		"serve": "vite preview",
 		"build:spa": "valaxy build",
 		"dev": "valaxy .",
 		"new": "valaxy new",
@@ -25,26 +30,14 @@
 	},
 	"dependencies": {
 		"@explosions/fireworks": "^0.0.2",
-		"@types/markdown-it": "^13.0.7",
-		"@unhead/schema-org": "^1.8.10",
-		"@unhead/shared": "^1.8.10",
-		"@vercel/speed-insights": "^1.0.10",
-		"download": "^8.0.0",
-		"global": "^4.4.0",
-		"postcss": "^8.4.35",
-		"unhead": "^1.8.10",
-		"valaxy": "^0.18.1",
+		"@types/download": "^8.0.5",
+		"unplugin-vue-router": "^0.8.4",
+		"valaxy": "^0.18.3",
 		"valaxy-addon-components": "^0.0.2",
 		"valaxy-addon-waline": "^0.1.2",
-		"valaxy-theme-yun": "^0.18.1",
-		"vite": "^5.1.3",
-		"vite-plugin-pwa": "^0.19.0",
+		"valaxy-theme-yun": "^0.18.3",
+		"vite": "^5.1.4",
 		"vue": "^3.4.19",
-		"vue-gtag-next": "^1.14.0",
-		"workbox-build": "^7.0.0",
-		"workbox-window": "^7.0.0"
-	},
-	"devDependencies": {
-		"typescript": "^5.3.3"
+		"vue-gtag-next": "^1.14.0"
 	}
 }

@@ -101,6 +101,8 @@ export default defineValaxyConfig<UserThemeConfig>({
 		}),
 		addonComponents(),
 	],
+	
+	
 
 	markdown: {
 		lineNumbers: true,

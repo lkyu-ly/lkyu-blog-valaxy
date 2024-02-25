@@ -188,4 +188,10 @@ export default defineSiteConfig({
 	vanillaLazyload: {
 		enable: true,
 	},
+
+
+	// redirects: {
+	// 	useVueRouter: false,
+	// 	rules: [],
+	// },
 });
