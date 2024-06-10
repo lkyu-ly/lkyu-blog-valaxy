@@ -35,3 +35,6 @@ public/feed.xml
 
 # valaxy rss
 public/atom.xml
+
+# mas cache
+public/mas.cmd

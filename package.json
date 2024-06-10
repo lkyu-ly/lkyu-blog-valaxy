@@ -26,18 +26,19 @@
 		"build:spa": "valaxy build",
 		"dev": "valaxy .",
 		"new": "valaxy new",
-		"rss": "valaxy rss"
+		"rss": "valaxy rss",
+		"serve": "vite preview"
 	},
 	"dependencies": {
 		"@explosions/fireworks": "^0.0.2",
 		"download": "^8.0.0",
-		"unplugin-vue-router": "^0.8.6",
-		"valaxy": "^0.18.6",
+		"unplugin-vue-router": "^0.9.1",
+		"valaxy": "^0.18.7",
 		"valaxy-addon-components": "^0.0.2",
 		"valaxy-addon-waline": "^0.1.4",
-		"valaxy-theme-yun": "^0.18.6",
-		"vite": "^5.2.11",
-		"vue": "^3.4.26",
+		"valaxy-theme-yun": "^0.18.7",
+		"vite": "^5.2.13",
+		"vue": "^3.4.27",
 		"vue-gtag-next": "^1.14.0"
 	}
 }

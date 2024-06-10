@@ -32,6 +32,7 @@ export default defineValaxyConfig<UserThemeConfig>({
 
 		bg_image: {
 			enable: true,
+			// 可以使用本地文件，放到public后在url直接填写文件名
 			url: 'https://pic.imgdb.cn/item/5fd234093ffa7d37b3b4e5e1.jpg',
 			dark: 'https://pic.imgdb.cn/item/5fd234093ffa7d37b3b4e5e1.jpg',
 			// blur: 30px , 设置背景模糊程度
@@ -101,8 +102,6 @@ export default defineValaxyConfig<UserThemeConfig>({
 		}),
 		addonComponents(),
 	],
-	
-	
 
 	markdown: {
 		lineNumbers: true,
