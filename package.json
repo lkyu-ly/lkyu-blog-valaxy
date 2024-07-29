@@ -32,13 +32,13 @@
 	"dependencies": {
 		"@explosions/fireworks": "^0.0.2",
 		"download": "^8.0.0",
-		"unplugin-vue-router": "^0.10.0",
-		"valaxy": "^0.19.2",
+		"unplugin-vue-router": "^0.10.1",
+		"valaxy": "^0.19.5",
 		"valaxy-addon-components": "^0.0.2",
 		"valaxy-addon-waline": "^0.2.0",
-		"valaxy-theme-yun": "^0.19.2",
-		"vite": "^5.3.4",
-		"vue": "^3.4.31",
+		"valaxy-theme-yun": "^0.19.5",
+		"vite": "^5.3.5",
+		"vue": "^3.4.34",
 		"vue-gtag-next": "^1.14.0"
 	}
 }
