@@ -19,7 +19,7 @@
 		"theme": "yun"
 	},
 	"scripts": {
-		"build": "node public/fetch.cjs && npm run fuse && npm run build:ssg",
+		"build": "npm run fuse && npm run build:ssg",
 		"build:ssg": "valaxy build --ssg",
 		"fuse": "valaxy fuse",
 		"clean": "rm -rf dist",
